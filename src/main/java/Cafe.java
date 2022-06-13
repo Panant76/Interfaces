@@ -1,7 +1,9 @@
 import interfaces.Service;
 
 public class Cafe implements Service {
-    public void cook(String name) {
+    public String cook(String name) {
+
+        return name;
 
     }
 

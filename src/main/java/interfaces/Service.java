@@ -2,6 +2,7 @@ package interfaces;
 
 public interface Service {
 
-    void cook(String name);
+     String cook(String name);
+
     void sale(Float cost);
 }

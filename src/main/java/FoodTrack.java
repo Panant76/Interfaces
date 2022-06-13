@@ -2,8 +2,9 @@ import interfaces.Service;
 
 public class FoodTrack implements Service {
 
-    public void cook(String name) {
+    public String cook(String name) {
 
+        return name;
     }
 
     public void sale(Float cost) {
